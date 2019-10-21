@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*body*/
+body{
+    background-color: rgb(249, 240, 240)
+}
+/*container*/
+.container{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+}
+/*nav*/
+.nav{
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    margin-top: 50px;
+}
+.nav h1{
+    float: left;
+    width: 30%;
+}
+.nav ul{
+    height: 30px;
+    width: 32%;
+    margin: auto;
+    margin-top: 15px;
+}
+.nav ul li{
+    width: 25%;
+    list-style-type: none;
+    float: left;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.nav ul li a, .nav h1{
+    color: rgb(19, 19, 86);
+}
+/*informatie tekst*/
+#information-text{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+#information-text h2{
+    text-align: center;
+}
+/*links*/
+#links{
+    width: 60%;
+    margin: auto;
+    margin-top: 30px;
+    height: 20vh;
+}
+#links ul li{
+    height: 50px;
+    width: 50%;
+    list-style-type: none;
+    float: left;
+}
+#links ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+/*Formulier*/
+#formulier-form{
+    width: 20%;
+    margin: auto;
+    margin-top: 25vh;
+    position: relative;
+}
+.text{
+    position: absolute;
+    right: 0;
+}
+.klacht{
+    position: absolute;
+    right: 50%;
+}
+#submit{
+    width: 10vw;
+    position: absolute;
+    right: 25%;
+}
+/*Over ons*/
+#about-up{
+    width: 65%;
+    height: 30vh;
+    background-image: url(../images/generic.jpg);
+    background-size: 100% 100%;
+    margin: auto;
+}
+#about-down{
+    width: 90%;
+    margin: auto;
+    margin-top: 5vh;
+}
+#text-talen{
+    width: 90%;
+    margin: auto;
+}
+/*Overzicht*/
+#overzicht{
+    width: 60%;
+    margin: auto;
+    margin-top: 20vh;
+}
+#overzicht h2{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#overzicht p{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+table{
+    width: 90%;
+    margin: auto;
+}
+.standaard{
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+.oneven{
+    background-color: lightblue;
+}
+#teller{
+    width: 50%;
+    margin: auto;
+    margin-top: 10vh;
+}
+/*Tussen*/
+#tussen-formulier{
+    height: 20vh;
+}
+#tussen-about{
+    height: 5vh;
+}
+#tussen-overzicht{
+    height: 5vh;
+}
+/*footer*/
+footer{
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+    height: 10vh;
+    background-color: rgb(80, 101, 208);
+}
